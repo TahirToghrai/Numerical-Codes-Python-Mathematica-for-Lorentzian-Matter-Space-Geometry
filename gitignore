@@ -1,0 +1,47 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+build/
+dist/
+*.egg-info/
+.eggs/
+.venv/
+venv/
+env/
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+
+# ---- Mathematica ----
+*.nb.bak
+*.cdf
+*.m~
+*.wl~
+.Mathematica/
+
+# ---- Generated data / figures (keep folders, ignore large regenerable outputs) ----
+data/raw/
+figures/*.pdf
+figures/*.png
+!figures/.gitkeep
+*.tmp
+*.log
+
+# ---- LaTeX (only relevant if the paper source is also kept in this repo) ----
+*.aux
+*.bbl
+*.blg
+*.out
+*.toc
+*.synctex.gz
+*.fls
+*.fdb_latexmk
+
+# ---- OS / editors ----
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
